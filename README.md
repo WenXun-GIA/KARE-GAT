@@ -128,3 +128,8 @@ The notebook uses every discovered fold model, applies its saved scalers, and av
 ```
 
 The workbook contains `Predictions` and `Summary` sheets with sample-level predictions, residuals, graph features, and molecule-level R² values. The current prediction notebook expects reference `extraction_rate` values for these reports. When predicting molecules used in cross-validation, ensemble scores include models trained on those molecules and should be interpreted separately from held-out LOMO validation scores.
+
+## License
+This project's original source code is licensed under the MIT License.
+See [LICENSE](LICENSE) for details.
+Third-party components remain subject to their respective licenses.
